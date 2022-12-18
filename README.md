@@ -54,71 +54,71 @@ ex) cd 2022-GDSCSCH-AlgorithmStudy
 <details>
     <summary>1주차 (01.02 ~ 01.08)</summary>
 
-| 07.25(월) | 07.27(수) | 07.29(금) |
+| 01.02(월) | 01.04(수) | 01.06(금) |
 | :------: | :------: | :------: |
-| [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) | [추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676) |
+| [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334) | [햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502) | [문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) |
 
 </details>
 
 <details>
     <summary>2주차 (01.09 ~ 01.15)</summary>
 
-| 08.01(월) | 08.03(수) | 08.05(금) |
+| 01.09(월) | 01.11(수) | 01.13(금) |
 | :------: | :------: | :------: |
-| [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) | [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |
+| [로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) | [성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666) | [기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798) |
 
 </details>
 
 <details>
     <summary>3주차 (01.16 ~ 01.22)</summary>
 
-| 08.08(월) | 08.10(수) | 08.12(금) |
+| 01.16(월) | 01.18(수) | 01.20(금) |
 | :------: | :------: | :------: |
-| [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [카카오프렌즈 컬러링북](https://school.programmers.co.kr/learn/courses/30/lessons/1829) | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) |
+| [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [명예의 전당1](https://school.programmers.co.kr/learn/courses/30/lessons/138477) | [숫자 짝꿍](https://school.programmers.co.kr/learn/courses/30/lessons/131128) |
 
 </details>
 
 <details>
     <summary>4주차 (01.23 ~ 01.29)</summary>
 
-| 08.15(월) | 08.17(수) | 08.19(금) |
+| 01.23(월) | 01.25(수) | 01.27(금) |
 | :------: | :------: | :------: |
-| [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | [단체사진 찍기](https://school.programmers.co.kr/learn/courses/30/lessons/1835) | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189) |
+| [숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301) | [과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808) | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
 
 </details>
 
 <details>
     <summary>5주차 (01.30 ~ 02.05)</summary>
 
-| 08.22(월) | 08.24(수) | 08.26(금) |
+| 01.30(월) | 02.01(수) | 02.03(금) |
 | :------: | :------: | :------: |
-| [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256) | [멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048) | [브라이언의 고민](https://school.programmers.co.kr/learn/courses/30/lessons/1830) |
+| [키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256) | [멀쩡한 사각형](https://school.programmers.co.kr/learn/courses/30/lessons/62048) | [디펜스 게임](https://school.programmers.co.kr/learn/courses/30/lessons/142085) |
 
 </details>
 
 <details>
     <summary>6주차 (02.06 ~ 02.12)</summary>
 
-| 08.29(월) | 08.31(수) | 09.02(금) |
+| 02.06(월) | 02.08(수) | 02.10(금) |
 | :------: | :------: | :------: |
-| [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899) | [리틀 프렌즈 사천성](https://school.programmers.co.kr/learn/courses/30/lessons/1836) |
+| [체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862) | [124 나라의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12899) | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) |
 
 </details>
 
 <details>
     <summary>7주차 (02.13 ~ 02.19)</summary>
 
-| 09.05(월) | 09.07(수) | 09.09(금) |
+| 02.13(월) | 02.15(수) | 02.17(금) |
 | :------: | :------: | :------: |
-| [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
+| [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) |
 
 </details>
 
 <details>
     <summary>8주차 (02.20 ~ 02.26)</summary>
 
-| 09.12(월) | 09.14(수) | 09.16(금) |
+| 02.20(월) | 02.22(수) | 02.24(금) |
 | :------: | :------: | :------: |
-| [음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501) | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
+| [음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501) | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [모음 사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |
 
 </details>
