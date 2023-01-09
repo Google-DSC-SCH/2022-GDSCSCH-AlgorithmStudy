@@ -1,5 +1,5 @@
 
-![gdsc image](./profile/contents/KakaoTalk_20221110_155809210.png)
+![logo](https://user-images.githubusercontent.com/26412102/211242398-1b2c2d09-9e5b-4446-b490-4d8721fdda78.png)
 
 ## 💡 목표
 * 알고리즘을 활용하여 효율적인 코드 작성
