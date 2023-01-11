@@ -24,7 +24,7 @@
 - 반환값은 [최대, 최저] 임
 """
 def solution(lottos, win_nums):
-    a=[i for i in lottos if i in win_nums] #겹치는 숫자만 배열로 저장해줌
+    a=[i for i in lottos if i in win_nums] #겹치는 숫자만 배열로 저장해로또줌
     print(a)
     return [7-max((len(a)+lottos.count(0),1)), 7-max(len(a),1)]
     """
