@@ -1,27 +1,18 @@
-def solution(s):
+def solution(number, limit, power):
     answer = 0
-    
-    # first = s[0]
-    first = ""
-    firstNum = 0
-    otherNum = 0
-    for i in s:
-        # first 초기화
-        if first == "":
-            first = i
-        # 개수 탐색
-        if i == first:
-            firstNum += 1
+    for num in range(1, number+1):
+        
+        # 약수 개수 계산
+        cnt = 0
+        for i in range(1, int(num**(1/2)) + 1):
+            if num % i == 0:
+                cnt += 2
+                if i**2 == num:
+                    cnt -= 1
+        
+        # 리미트 계산
+        if cnt > limit:
+            answer += power
         else:
-            otherNum += 1
-        # 조건 비교
-        if firstNum == otherNum:
-            answer += 1
-            firstNum = 0
-            otherNum = 0
-            first = ""
-    # 마지막 경우
-    if firstNum != otherNum:
-        answer += 1
-            
+            answer += cnt
     return answer
