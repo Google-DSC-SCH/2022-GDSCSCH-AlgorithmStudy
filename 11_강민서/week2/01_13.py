@@ -16,16 +16,22 @@
 -> !!!!!!!!!!!!!확인할 것 약수는 중복됨을 이용하여 시간초과를 해결해야 됨!!!!!!!!!!!!!!!!
 """
 def divisor(num,limit,power):
+    #제곱근까지의 약수 리스트의 길이
+    #만약 
     a=len([i for i in range(1,int(num**(1/2))+1) if num%i==0])
-    print(num, [i for i in range(1,int(num**(1/2))+1) if num%i==0])
+    a=a+(a-1 if num**(1/2)==int(num**(1/2)) else a)
+    #길이가 limit보다 크면 power로 지정
     if a>limit:
         a=power
     return a
 def solution(number, limit, power):
     result=[divisor(i,limit, power) for i in range(1,number+1)]
-    return sum(result)+len(result)-1
+    return sum(result)
 print(solution(10,3,2))
 
+"""
+어떻게 시간초과를 해결할 수 있을까
+"""
 
 """
 시간초과
