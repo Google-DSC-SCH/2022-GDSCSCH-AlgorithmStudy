@@ -16,6 +16,7 @@ for i in range(len(opeartor)):
            
 for case in permutations(tmp, N-1):
     total = nums[0]
+    
     for k in range(1, N):
         if case[k-1] == "+":
             total += nums[k]
@@ -28,7 +29,6 @@ for case in permutations(tmp, N-1):
             
         if case[k-1] == "/":
             total = int(total/ nums[k])
-            
             
     if total > max_size:
         max_size = total
