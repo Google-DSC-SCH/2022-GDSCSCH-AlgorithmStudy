@@ -1,29 +1,26 @@
 def solution(new_id):
-    new_id = new_id.lower()
-
-    for c in new_id:
+    answer = ''
+    
+    for c in new_id.lower():
         if c.isalpha() or c.isdigit() or c in ["-", "_", "."]:
-            continue
-    
-        else:
-            new_id = new_id.replace(c, "")
+            answer += c
 
-    while ".." in new_id:
-        new_id = new_id.replace("..", ".")
+    while ".." in answer:
+        answer = answer.replace("..", ".")
 
-    if new_id[0] == "." or new_id[-1] == ".":
-        new_id = new_id.strip(".")
+    if answer[0] == "." or answer[-1] == ".":
+        answer = answer.strip(".")
 
-    if not new_id:
-        new_id = "a"
+    if not answer:
+        answer = "a"
     
-    if len(new_id) >= 16:
-        new_id = new_id[:15]
+    if len(answer) >= 16:
+        answer = answer[:15]
     
-        if new_id[0] == "." or new_id[-1] == ".":
-            new_id = new_id.strip(".")
+        if answer[0] == "." or answer[-1] == ".":
+            answer = answer.strip(".")
         
-    if len(new_id) <= 2:
-        new_id += new_id[-1] * (3 - len(new_id))
+    if len(answer) <= 2:
+        answer += answer[-1] * (3 - len(answer))
     
-    return new_id
+    return answer
