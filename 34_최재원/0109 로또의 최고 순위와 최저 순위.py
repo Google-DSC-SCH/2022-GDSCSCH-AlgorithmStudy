@@ -16,10 +16,3 @@ def solution(lottos, win_nums):
     else: a2=6
     answer = [a1,a2]
     return answer
-
-lottos = [44, 1, 0, 0, 31, 25]
-win_nums = [31, 10, 45, 1, 6, 19]
-
-#main
-ans = solution(lottos, win_nums)
-print(ans)
