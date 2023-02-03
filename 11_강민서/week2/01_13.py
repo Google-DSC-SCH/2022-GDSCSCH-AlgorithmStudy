@@ -19,7 +19,7 @@ def divisor(num,limit,power):
     #제곱근까지의 약수 리스트의 길이
     #만약 
     a=len([i for i in range(1,int(num**(1/2))+1) if num%i==0])
-    a=a+(a-1 if num**(1/2)==int(num**(1/2)) else a)
+    a=a+(a-1 if num**(1/2)==int(num**(1/2)) else a) #제곱근 했을 때 정수로 떨어지는 경우는 약수가 홀수개 안떨어지는 경우는 약수가 짝수개임
     #길이가 limit보다 크면 power로 지정
     if a>limit:
         a=power
