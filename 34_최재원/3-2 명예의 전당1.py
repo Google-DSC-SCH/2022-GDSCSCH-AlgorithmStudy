@@ -1,19 +1,18 @@
-#¸í¿¹ÀÇ Àü´ç1
 #https://school.programmers.co.kr/learn/courses/30/lessons/138477?language=python3
 
-#¸í¿¹ÀÇ Àü´ç ¸®½ºÆ® ¿ø¼ö Ãß°¡
+#ëª…ì˜ˆì˜ ì „ë‹¹ ë¦¬ìŠ¤íŠ¸ ì›ìˆ˜ ì¶”ê°€
 def gloryAddList(list,now,k):
     list.append(now)
     list.sort()
-    list=list[-k:]  #k°³¼ö ¸¸Å­ ½½¶óÀÌ
+    list=list[-k:]  #kê°œìˆ˜ ë§Œí¼ ìŠ¬ë¼ì´
     return list
 
 #main solution
 def solution(k, score):
     glory = []
     answer = []
-    #Á¡¼ö ¹ßÇ¥
+    #ì ìˆ˜ ë°œí‘œ
     for now in score:
         glory = gloryAddList(glory,now,k)
-        answer.append(min(glory))  #¹ßÇ¥Á¡¼ö ¸®½ºÆ® ÃÖ½ÅÈ­
+        answer.append(min(glory))  #ë°œí‘œì ìˆ˜ ë¦¬ìŠ¤íŠ¸ ìµœì‹ í™”
     return answer
