@@ -1,22 +1,21 @@
-import heapq 
+import heapq
 
-n = 7
-k = 3
-enemy = [4, 2, 4, 5, 3, 3, 1]
-answer = 0
-heap = []
+def solution(n, k, enemy):
+    answer = 0
+    total = 0
+    heap = [] 
 
-for e in enemy:
-    if n >= e:
+    for e in enemy:
         heapq.heappush(heap, -e)
-        n -= e
+        total += e
+    
+        if n < total:
+            if k == 0:
+                break
         
-        print(heap)
-    else:
-        if k > 0:
-            n = -heapq.heappop(heap)
+            total += heapq.heappop(heap)
             k -= 1
             
-    answer += 1
-    
-print(answer)
+        answer += 1
+
+    return answer
